@@ -1,96 +1,96 @@
-# Lista generada: 2026-09-29 15:47 UTC
+# Lista generada: 2026-09-29 18:59 UTC
 #EXTM3U
-#EXTINF:-1 tvg-id="266f1e55-40b2-4c74-8368-3529413722d5" tvg-logo="https://s3.tumm.tv/storage/2529c69d707f21fecda59bb776f5c48e" group-title="Costa Rica",Alco Madrid TV
+#EXTINF:-1 tvg-id="266f1e55-40b2-4c74-8368-3529413722d5" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/266f1e55-40b2-4c74-8368-3529413722d5.png" group-title="Costa Rica",Alco Madrid TV
 https://streaming.tumm.tv/10303/notoken/hls/alcomadridtv/playlist.m3u8
-#EXTINF:-1 tvg-id="05472318-cf87-49a1-988e-444faf7b778a" tvg-logo="https://s3.tumm.tv/storage/2fdce4867221b1a67bb16f783e891ffc" group-title="Costa Rica",Canal 5
+#EXTINF:-1 tvg-id="05472318-cf87-49a1-988e-444faf7b778a" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/05472318-cf87-49a1-988e-444faf7b778a.png" group-title="Costa Rica",Canal 5
 https://streaming.tumm.tv/10303/notoken/hls/canal5/playlist.m3u8
-#EXTINF:-1 tvg-id="8adfe850-47c2-47a3-8462-25539a1c61cd" tvg-logo="https://s3.tumm.tv/storage/45a2ae70d5917736b8243f71928c661a" group-title="Costa Rica",VM TV Vintage Music
+#EXTINF:-1 tvg-id="8adfe850-47c2-47a3-8462-25539a1c61cd" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/8adfe850-47c2-47a3-8462-25539a1c61cd.png" group-title="Costa Rica",VM TV Vintage Music
 https://streaming.tumm.tv/10303/notoken/hls/vintagemusic/playlist.m3u8
-#EXTINF:-1 tvg-id="cb2ac848-7520-49aa-a09b-04d96d61dfb6" tvg-logo="https://s3.tumm.tv/storage/20e5eca80d3ba75ed53b144e95faa415" group-title="Costa Rica",Soy Plancha
+#EXTINF:-1 tvg-id="cb2ac848-7520-49aa-a09b-04d96d61dfb6" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/cb2ac848-7520-49aa-a09b-04d96d61dfb6.png" group-title="Costa Rica",Soy Plancha
 https://streaming.tumm.tv/10303/notoken/hls/soyplanchatv/playlist.m3u8
-#EXTINF:-1 tvg-id="8ebb1832-895f-4e4c-a07a-54d597935ee6" tvg-logo="https://s3.tumm.tv/storage/188b72f7a2f63acdd1749b800637a452" group-title="Costa Rica",XKids TV
+#EXTINF:-1 tvg-id="8ebb1832-895f-4e4c-a07a-54d597935ee6" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/8ebb1832-895f-4e4c-a07a-54d597935ee6.png" group-title="Costa Rica",XKids TV
 https://streaming.tumm.tv/10303/notoken/hls/xkidstv/playlist.m3u8
-#EXTINF:-1 tvg-id="e9a8a3c0-7ba6-40c5-aff6-5c200f68cf7c" tvg-logo="https://s3.tumm.tv/storage/8b9a311cf52bbed479060bca98845277" group-title="Costa Rica",TV SUR
+#EXTINF:-1 tvg-id="e9a8a3c0-7ba6-40c5-aff6-5c200f68cf7c" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/e9a8a3c0-7ba6-40c5-aff6-5c200f68cf7c.png" group-title="Costa Rica",TV SUR
 https://streaming.tumm.tv/10303/notoken/hls/tvsurcanal14/playlist.m3u8
-#EXTINF:-1 tvg-id="524e877c-6f68-4904-afa2-0709418015c4" tvg-logo="https://s3.tumm.tv/storage/f74504a96171abf1ab39b2db9cba83c8" group-title="Costa Rica",Gex TV
+#EXTINF:-1 tvg-id="524e877c-6f68-4904-afa2-0709418015c4" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/524e877c-6f68-4904-afa2-0709418015c4.png" group-title="Costa Rica",Gex TV
 https://streaming.tumm.tv/10303/notoken/hls/gextv/playlist.m3u8
-#EXTINF:-1 tvg-id="b74db0f7-8ea0-4e42-9bd7-1a97eedc48ae" tvg-logo="https://s3.tumm.tv/storage/11d9ac6eabe917f0bda69bd73c1eebb6" group-title="Costa Rica",La Nacional
+#EXTINF:-1 tvg-id="b74db0f7-8ea0-4e42-9bd7-1a97eedc48ae" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/b74db0f7-8ea0-4e42-9bd7-1a97eedc48ae.png" group-title="Costa Rica",La Nacional
 https://streaming.tumm.tv/10303/notoken/hls/canal13.3sinart/playlist.m3u8
-#EXTINF:-1 tvg-id="dffc6644-76b1-444a-9dab-dff5bc5f7575" tvg-logo="https://s3.tumm.tv/storage/425a19224126aee244a17e4cc2dbad08" group-title="Costa Rica",Fair Play TV
+#EXTINF:-1 tvg-id="dffc6644-76b1-444a-9dab-dff5bc5f7575" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/dffc6644-76b1-444a-9dab-dff5bc5f7575.png" group-title="Costa Rica",Fair Play TV
 https://streaming.tumm.tv/10303/notoken/hls/fairplaytv/playlist.m3u8
-#EXTINF:-1 tvg-id="367b55a3-1ff5-49da-9c82-88232a646b2d" tvg-logo="https://s3.tumm.tv/storage/dc7dddf22f630612fcb578e1edded171" group-title="Costa Rica",La MEGA en VIVO
+#EXTINF:-1 tvg-id="367b55a3-1ff5-49da-9c82-88232a646b2d" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/367b55a3-1ff5-49da-9c82-88232a646b2d.png" group-title="Costa Rica",La MEGA en VIVO
 https://streaming.tumm.tv/10303/notoken/hls/lamegaenvivo/playlist.m3u8
-#EXTINF:-1 tvg-id="e5f23ac0-162b-4f9c-b202-df2ba3518272" tvg-logo="https://s3.tumm.tv/storage/f7c6e9938c623307650bef2133553aa7" group-title="Costa Rica",TeleSur
+#EXTINF:-1 tvg-id="e5f23ac0-162b-4f9c-b202-df2ba3518272" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/e5f23ac0-162b-4f9c-b202-df2ba3518272.png" group-title="Costa Rica",TeleSur
 https://streaming.tumm.tv/10303/notoken/hls/telesur/playlist.m3u8
-#EXTINF:-1 tvg-id="118ca012-f7ee-4090-8224-ff2cb716a338" tvg-logo="https://s3.tumm.tv/storage/c48200791ee2ee844818e4dc6fe8118f" group-title="Costa Rica",Radio La Mega
+#EXTINF:-1 tvg-id="118ca012-f7ee-4090-8224-ff2cb716a338" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/118ca012-f7ee-4090-8224-ff2cb716a338.png" group-title="Costa Rica",Radio La Mega
 https://streaming.tumm.tv/10303/notoken/hls/radiolamega/playlist.m3u8
-#EXTINF:-1 tvg-id="d1d5e03d-129f-44f4-861f-94388a36aeb5" tvg-logo="https://s3.tumm.tv/storage/db107f0858eeb0d6271e8cbf782764e4" group-title="Costa Rica",Canal 11
+#EXTINF:-1 tvg-id="d1d5e03d-129f-44f4-861f-94388a36aeb5" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/d1d5e03d-129f-44f4-861f-94388a36aeb5.png" group-title="Costa Rica",Canal 11
 https://streaming.tumm.tv/10303/notoken/hls/canal11/playlist.m3u8
-#EXTINF:-1 tvg-id="00f9e509-0182-4780-815b-0dc16879182f" tvg-logo="https://s3.tumm.tv/storage/b51e1a7c4f41115cd782464c67423942" group-title="Costa Rica",Repretel Canal 6
+#EXTINF:-1 tvg-id="00f9e509-0182-4780-815b-0dc16879182f" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/00f9e509-0182-4780-815b-0dc16879182f.png" group-title="Costa Rica",Repretel Canal 6
 https://streaming.tumm.tv/10303/notoken/hls/canal6/playlist.m3u8
-#EXTINF:-1 tvg-id="0578bd87-85eb-49a3-8c4e-0ab7d3aa5935" tvg-logo="https://s3.tumm.tv/storage/b5fb589c080363bb73d26a4ef50e8091" group-title="Costa Rica",Extrema TV
+#EXTINF:-1 tvg-id="0578bd87-85eb-49a3-8c4e-0ab7d3aa5935" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/0578bd87-85eb-49a3-8c4e-0ab7d3aa5935.png" group-title="Costa Rica",Extrema TV
 https://streaming.tumm.tv/10303/notoken/hls/extrematv/playlist.m3u8
-#EXTINF:-1 tvg-id="25a0d176-e8fb-4953-9f6a-bdb1b882fdd6" tvg-logo="https://s3.tumm.tv/storage/814ab378cee9646f93a386aab929a91e" group-title="Costa Rica",Canal 10
+#EXTINF:-1 tvg-id="25a0d176-e8fb-4953-9f6a-bdb1b882fdd6" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/25a0d176-e8fb-4953-9f6a-bdb1b882fdd6.png" group-title="Costa Rica",Canal 10
 https://streaming.tumm.tv/10303/notoken/hls/canal10/playlist.m3u8
-#EXTINF:-1 tvg-id="20794983-5ed4-4c32-9420-ecf5b71bf454" tvg-logo="https://s3.tumm.tv/storage/a7b894cdcaf59985aa7a7219a21449a1" group-title="Costa Rica",Urbano TV
+#EXTINF:-1 tvg-id="20794983-5ed4-4c32-9420-ecf5b71bf454" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/20794983-5ed4-4c32-9420-ecf5b71bf454.png" group-title="Costa Rica",Urbano TV
 https://streaming.tumm.tv/10303/notoken/hls/urbanotvcr/playlist.m3u8
-#EXTINF:-1 tvg-id="7babaa52-a457-4273-8c0c-5045b32cb0a4" tvg-logo="https://s3.tumm.tv/storage/4edb80997a6d3ca8141d957657695234" group-title="Costa Rica",Telered
+#EXTINF:-1 tvg-id="7babaa52-a457-4273-8c0c-5045b32cb0a4" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/7babaa52-a457-4273-8c0c-5045b32cb0a4.png" group-title="Costa Rica",Telered
 https://streaming.tumm.tv/10303/notoken/hls/telered/playlist.m3u8
-#EXTINF:-1 tvg-id="3bc4c636-83c2-4a93-a8a4-264e6c16c657" tvg-logo="https://s3.tumm.tv/storage/cda145cc363389c06dd741cb6e987160" group-title="Costa Rica",Colosal TV
+#EXTINF:-1 tvg-id="3bc4c636-83c2-4a93-a8a4-264e6c16c657" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/3bc4c636-83c2-4a93-a8a4-264e6c16c657.png" group-title="Costa Rica",Colosal TV
 https://streaming.tumm.tv/10303/notoken/hls/colosaltv/playlist.m3u8
-#EXTINF:-1 tvg-id="07c82598-bc7c-4c81-a017-dd617fe80e6b" tvg-logo="https://s3.tumm.tv/storage/1c06c263e5fa82bca12ae4bdbc5c5781" group-title="Costa Rica",Luz Naciente
+#EXTINF:-1 tvg-id="07c82598-bc7c-4c81-a017-dd617fe80e6b" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/07c82598-bc7c-4c81-a017-dd617fe80e6b.png" group-title="Costa Rica",Luz Naciente
 https://streaming.tumm.tv/10303/notoken/hls/luznacientetv/playlist.m3u8
-#EXTINF:-1 tvg-id="1d3657fb-5563-4945-9988-5c3dda6edfba" tvg-logo="https://s3.tumm.tv/storage/ac6c8112a0e8e81e8eabf0f8d8954c42" group-title="Costa Rica",Colosal 88.3
+#EXTINF:-1 tvg-id="1d3657fb-5563-4945-9988-5c3dda6edfba" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/1d3657fb-5563-4945-9988-5c3dda6edfba.png" group-title="Costa Rica",Colosal 88.3
 https://streaming.tumm.tv/10303/notoken/hls/canal3colosal88.3/playlist.m3u8
-#EXTINF:-1 tvg-id="72f07092-e94d-4ec3-9e12-d5207fd28df6" tvg-logo="https://s3.tumm.tv/storage/ce51a1aa1ce7b60f5be4f582e162f6ab" group-title="Costa Rica",San José TV
+#EXTINF:-1 tvg-id="72f07092-e94d-4ec3-9e12-d5207fd28df6" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/72f07092-e94d-4ec3-9e12-d5207fd28df6.png" group-title="Costa Rica",San José TV
 https://streaming.tumm.tv/10303/notoken/hls/sanjos%C3%A9tv/playlist.m3u8
-#EXTINF:-1 tvg-id="5513382d-6e60-4ee0-8be3-7d925836892e" tvg-logo="https://s3.tumm.tv/storage/aea82e10ee9dc56ab9ad9eee0518f76f" group-title="Costa Rica",Tele Ritmo
+#EXTINF:-1 tvg-id="5513382d-6e60-4ee0-8be3-7d925836892e" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/5513382d-6e60-4ee0-8be3-7d925836892e.png" group-title="Costa Rica",Tele Ritmo
 https://streaming.tumm.tv/10303/notoken/hls/teleritmo/playlist.m3u8
-#EXTINF:-1 tvg-id="b14b0b3d-1905-4019-a16c-3f22856edcd4" tvg-logo="https://s3.tumm.tv/storage/817db549ea2d549a0d872894fdc2e87a" group-title="Costa Rica",RT
+#EXTINF:-1 tvg-id="b14b0b3d-1905-4019-a16c-3f22856edcd4" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/b14b0b3d-1905-4019-a16c-3f22856edcd4.png" group-title="Costa Rica",RT
 https://streaming.tumm.tv/10303/notoken/hls/rtrusia/playlist.m3u8
-#EXTINF:-1 tvg-id="9edef442-5895-44cb-8882-1cd8d9f5f97f" tvg-logo="https://s3.tumm.tv/storage/546b349628b1e14338d13ab6b0eafa38" group-title="Costa Rica",Canal 42
+#EXTINF:-1 tvg-id="9edef442-5895-44cb-8882-1cd8d9f5f97f" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/9edef442-5895-44cb-8882-1cd8d9f5f97f.png" group-title="Costa Rica",Canal 42
 https://streaming.tumm.tv/10303/notoken/hls/canal42/playlist.m3u8
-#EXTINF:-1 tvg-id="855be9bd-0433-4974-ad62-674e1af7d12b" tvg-logo="https://s3.tumm.tv/storage/f89877eb5f700bac3135079eafa3ca43" group-title="Costa Rica",Voice over Radio TV
+#EXTINF:-1 tvg-id="855be9bd-0433-4974-ad62-674e1af7d12b" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/855be9bd-0433-4974-ad62-674e1af7d12b.png" group-title="Costa Rica",Voice over Radio TV
 https://streaming.tumm.tv/10303/notoken/hls/voiceoverradiotv/playlist.m3u8
-#EXTINF:-1 tvg-id="7a0c2731-96df-4e35-bd6e-d303bf031869" tvg-logo="https://s3.tumm.tv/storage/6694258d6b57028e5b91ba721b808ca4" group-title="Costa Rica",Canal 2 CDR
+#EXTINF:-1 tvg-id="7a0c2731-96df-4e35-bd6e-d303bf031869" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/7a0c2731-96df-4e35-bd6e-d303bf031869.png" group-title="Costa Rica",Canal 2 CDR
 https://streaming.tumm.tv/10303/notoken/hls/canal2/playlist.m3u8
-#EXTINF:-1 tvg-id="93d2c95e-fc3e-48c4-96e7-cded9fa0d681" tvg-logo="https://s3.tumm.tv/storage/1854c501c6b8388ec7b6e7cf0db3cb19" group-title="Costa Rica",XMTV
+#EXTINF:-1 tvg-id="93d2c95e-fc3e-48c4-96e7-cded9fa0d681" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/93d2c95e-fc3e-48c4-96e7-cded9fa0d681.png" group-title="Costa Rica",XMTV
 https://streaming.tumm.tv/10303/notoken/hls/xmtv/playlist.m3u8
-#EXTINF:-1 tvg-id="56cd9a17-7973-45f1-b1f4-61b2ceca311e" tvg-logo="https://s3.tumm.tv/storage/1b6926f5de9de6713c6d37fc1cddde4e" group-title="Costa Rica",BeX TV
+#EXTINF:-1 tvg-id="56cd9a17-7973-45f1-b1f4-61b2ceca311e" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/56cd9a17-7973-45f1-b1f4-61b2ceca311e.png" group-title="Costa Rica",BeX TV
 https://streaming.tumm.tv/10303/notoken/hls/bextv/playlist.m3u8
-#EXTINF:-1 tvg-id="6efeacec-2fb6-4872-a083-8195f9b9e8d5" tvg-logo="https://s3.tumm.tv/storage/0b0dcb6fb2a1c8844b9c90a7e0d33bfb" group-title="Costa Rica",Canal UNIFE
+#EXTINF:-1 tvg-id="6efeacec-2fb6-4872-a083-8195f9b9e8d5" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/6efeacec-2fb6-4872-a083-8195f9b9e8d5.png" group-title="Costa Rica",Canal UNIFE
 https://streaming.tumm.tv/10303/notoken/hls/canalunife/playlist.m3u8
-#EXTINF:-1 tvg-id="f532eefa-e02d-4912-b514-67b5f8d9be7b" tvg-logo="https://s3.tumm.tv/storage/a2874dee827fb0891b10465fd9fb9be1" group-title="Costa Rica",FLS
+#EXTINF:-1 tvg-id="f532eefa-e02d-4912-b514-67b5f8d9be7b" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/f532eefa-e02d-4912-b514-67b5f8d9be7b.png" group-title="Costa Rica",FLS
 https://streaming.tumm.tv/10303/notoken/hls/fls/playlist.m3u8
-#EXTINF:-1 tvg-id="a4a343c8-6811-46d5-b081-cba029a0e3e8" tvg-logo="https://s3.tumm.tv/storage/34ba712e71b01391aecb37ce6c6b5b8e" group-title="Costa Rica",Best Clasicos TV
+#EXTINF:-1 tvg-id="a4a343c8-6811-46d5-b081-cba029a0e3e8" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/a4a343c8-6811-46d5-b081-cba029a0e3e8.png" group-title="Costa Rica",Best Clasicos TV
 https://streaming.tumm.tv/10303/notoken/hls/bestclasicostv/playlist.m3u8
-#EXTINF:-1 tvg-id="af0a93fe-1c8c-4e0f-ba1e-970a85e98c10" tvg-logo="https://s3.tumm.tv/storage/cdc4b706faba90e2bb93bead1e29b760" group-title="Costa Rica",Canal 4 
+#EXTINF:-1 tvg-id="af0a93fe-1c8c-4e0f-ba1e-970a85e98c10" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/af0a93fe-1c8c-4e0f-ba1e-970a85e98c10.png" group-title="Costa Rica",Canal 4 
 https://streaming.tumm.tv/10303/notoken/hls/canal4/playlist.m3u8
-#EXTINF:-1 tvg-id="0480ac90-33bd-419a-91ca-99964524abea" tvg-logo="https://s3.tumm.tv/storage/79dbee7769f12e3d09ae37691698eb1e" group-title="Costa Rica",EWTN
+#EXTINF:-1 tvg-id="0480ac90-33bd-419a-91ca-99964524abea" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/0480ac90-33bd-419a-91ca-99964524abea.png" group-title="Costa Rica",EWTN
 https://streaming.tumm.tv/10303/notoken/hls/ewtn/playlist.m3u8
-#EXTINF:-1 tvg-id="c5eb9491-96ee-4523-83ea-b63d168a7fe9" tvg-logo="https://s3.tumm.tv/storage/fed8b02612e5671b85c36ec6621f5f2d" group-title="Costa Rica",VM Latino
+#EXTINF:-1 tvg-id="c5eb9491-96ee-4523-83ea-b63d168a7fe9" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/c5eb9491-96ee-4523-83ea-b63d168a7fe9.png" group-title="Costa Rica",VM Latino
 https://streaming.tumm.tv/10303/notoken/hls/vmlatino/playlist.m3u8
-#EXTINF:-1 tvg-id="3c7a649a-0dd0-45d2-99ab-4688d62b2f12" tvg-logo="https://s3.tumm.tv/storage/c9af7917ef013285febb83e9463cc0a7" group-title="Costa Rica",TELEFIDES
+#EXTINF:-1 tvg-id="3c7a649a-0dd0-45d2-99ab-4688d62b2f12" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/3c7a649a-0dd0-45d2-99ab-4688d62b2f12.png" group-title="Costa Rica",TELEFIDES
 https://streaming.tumm.tv/10303/notoken/hls/telefides/playlist.m3u8
-#EXTINF:-1 tvg-id="db25ab2c-2925-4839-b2be-85bfe63bc239" tvg-logo="https://s3.tumm.tv/storage/95ff750e9fd60aafe658c6be940b9076" group-title="Costa Rica",Telesur
+#EXTINF:-1 tvg-id="db25ab2c-2925-4839-b2be-85bfe63bc239" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/db25ab2c-2925-4839-b2be-85bfe63bc239.png" group-title="Costa Rica",Telesur
 https://streaming.tumm.tv/10303/notoken/hls/telesurlatinoamerica/playlist.m3u8
-#EXTINF:-1 tvg-id="f8046ea0-6745-40fb-92b8-e1beebce8c93" tvg-logo="https://s3.tumm.tv/storage/acb259f52345cb7b7bda96ff23440f0c" group-title="Costa Rica",Canal 13 
+#EXTINF:-1 tvg-id="f8046ea0-6745-40fb-92b8-e1beebce8c93" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/f8046ea0-6745-40fb-92b8-e1beebce8c93.png" group-title="Costa Rica",Canal 13 
 https://streaming.tumm.tv/10303/notoken/hls/canal13/playlist.m3u8
-#EXTINF:-1 tvg-id="76b32d23-7f6c-4c2d-94c6-cd46332b71ac" tvg-logo="https://s3.tumm.tv/storage/19f0c8888cabc7983e98c988fabed580" group-title="Costa Rica",Antena Seis
+#EXTINF:-1 tvg-id="76b32d23-7f6c-4c2d-94c6-cd46332b71ac" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/76b32d23-7f6c-4c2d-94c6-cd46332b71ac.png" group-title="Costa Rica",Antena Seis
 https://streaming.tumm.tv/10303/notoken/hls/antenaseis/playlist.m3u8
-#EXTINF:-1 tvg-id="8948b516-e5cc-4f03-8fc0-747a9e571803" tvg-logo="https://s3.tumm.tv/storage/5b84291f301ca7e45bbff3bcb0edb822" group-title="Costa Rica",Canal 14 TVN
+#EXTINF:-1 tvg-id="8948b516-e5cc-4f03-8fc0-747a9e571803" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/8948b516-e5cc-4f03-8fc0-747a9e571803.png" group-title="Costa Rica",Canal 14 TVN
 https://streaming.tumm.tv/10303/notoken/hls/tvncanal14/playlist.m3u8
-#EXTINF:-1 tvg-id="72760fde-0a3c-413a-a52c-aac1981e44b1" tvg-logo="https://s3.tumm.tv/storage/3478588863280f66e05adb6b83d0d029" group-title="Costa Rica",DW
+#EXTINF:-1 tvg-id="72760fde-0a3c-413a-a52c-aac1981e44b1" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/72760fde-0a3c-413a-a52c-aac1981e44b1.png" group-title="Costa Rica",DW
 https://streaming.tumm.tv/10303/notoken/hls/dw/playlist.m3u8
-#EXTINF:-1 tvg-id="ea0b7940-8a8e-40fd-95b3-2e72d9a822b8" tvg-logo="https://s3.tumm.tv/storage/82110dfabf92617d2f4ebc093bc6c9a2" group-title="Costa Rica",Telesistema
+#EXTINF:-1 tvg-id="ea0b7940-8a8e-40fd-95b3-2e72d9a822b8" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/ea0b7940-8a8e-40fd-95b3-2e72d9a822b8.png" group-title="Costa Rica",Telesistema
 https://streaming.tumm.tv/10303/notoken/hls/telesistema/playlist.m3u8
-#EXTINF:-1 tvg-id="da2fbd1a-4d6e-44dc-a43f-5a7a9d628b55" tvg-logo="https://s3.tumm.tv/storage/b81bcaac4fc29601a1b289144b4545f0" group-title="Costa Rica",Gente OPA
+#EXTINF:-1 tvg-id="da2fbd1a-4d6e-44dc-a43f-5a7a9d628b55" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/da2fbd1a-4d6e-44dc-a43f-5a7a9d628b55.png" group-title="Costa Rica",Gente OPA
 https://streaming.tumm.tv/10303/notoken/hls/genteopa/playlist.m3u8
-#EXTINF:-1 tvg-id="16b42167-30f8-4b0f-a551-d0fafce49de9" tvg-logo="https://s3.tumm.tv/storage/6f1bf609e64633c350abebbcd8c0fa9f" group-title="Costa Rica",Canal 8 Multimedios
+#EXTINF:-1 tvg-id="16b42167-30f8-4b0f-a551-d0fafce49de9" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/16b42167-30f8-4b0f-a551-d0fafce49de9.png" group-title="Costa Rica",Canal 8 Multimedios
 https://streaming.tumm.tv/10303/notoken/hls/canal8/playlist.m3u8
-#EXTINF:-1 tvg-id="c5dc345b-653d-410d-9df2-d3ed75f840f9" tvg-logo="https://s3.tumm.tv/storage/f61bed920e953528ae04591cedee1d9b" group-title="Costa Rica",Canal Uno
+#EXTINF:-1 tvg-id="c5dc345b-653d-410d-9df2-d3ed75f840f9" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/c5dc345b-653d-410d-9df2-d3ed75f840f9.png" group-title="Costa Rica",Canal Uno
 https://streaming.tumm.tv/10303/notoken/hls/canal1/playlist.m3u8
-#EXTINF:-1 tvg-id="e1a697b5-9228-47eb-924a-b752e7b83d66" tvg-logo="https://s3.tumm.tv/storage/9a082eaadf9411ad5a5d7a9f7a25a796" group-title="Costa Rica",France 24
+#EXTINF:-1 tvg-id="e1a697b5-9228-47eb-924a-b752e7b83d66" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/e1a697b5-9228-47eb-924a-b752e7b83d66.png" group-title="Costa Rica",France 24
 https://streaming.tumm.tv/10303/notoken/hls/france24/playlist.m3u8
-#EXTINF:-1 tvg-id="777c5a30-436d-4d03-a2c1-8c91dca5cde1" tvg-logo="https://s3.tumm.tv/storage/9e3450900529d0a2dfabb6318be1c04b" group-title="Costa Rica",Canal 36
+#EXTINF:-1 tvg-id="777c5a30-436d-4d03-a2c1-8c91dca5cde1" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/777c5a30-436d-4d03-a2c1-8c91dca5cde1.png" group-title="Costa Rica",Canal 36
 https://streaming.tumm.tv/10303/notoken/hls/canal36/playlist.m3u8
