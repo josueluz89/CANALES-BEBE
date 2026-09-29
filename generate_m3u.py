@@ -4,6 +4,10 @@
 Flujo: demo-login anonimo -> lista de canales -> streams por canal -> M3U.
 Las URLs de stream llevan tokens de corta duracion; este script esta pensado
 para correrse por cron/CI y regenerar el archivo.
+
+Logos: s3.tumm.tv los sirve como application/octet-stream y muchos
+reproductores los rechazan. Se guardan en logos/<tvg-id>.png dentro del
+repo y el M3U apunta a jsDelivr (Content-Type image/png correcto).
 """
 import json
 import os
@@ -25,6 +29,10 @@ COMMON = {
     "client": "browser",
 }
 HEADERS = {"Content-Type": "application/json", "User-Agent": "Mozilla/5.0"}
+
+REPO_DIR = os.path.dirname(os.path.abspath(__file__))
+LOGOS_DIR = os.path.join(REPO_DIR, "logos")
+JSDELIVR_LOGOS = "https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos"
 
 
 def api(method, path, params=None, data=None, token=None, retries=3):
@@ -50,6 +58,42 @@ def api(method, path, params=None, data=None, token=None, retries=3):
         except Exception as e:  # noqa: BLE001
             last = e
     raise last
+
+
+def logo_local(channel_id, s3_url):
+    """Devuelve la URL jsDelivr del logo. Descarga y guarda el PNG si falta."""
+    os.makedirs(LOGOS_DIR, exist_ok=True)
+    dest = os.path.join(LOGOS_DIR, f"{channel_id}.png")
+    if os.path.exists(dest) and os.path.getsize(dest) > 100:
+        return f"{JSDELIVR_LOGOS}/{channel_id}.png"
+    if not s3_url:
+        return ""
+    tmp = dest + ".tmp"
+    try:
+        r = subprocess.run(
+            ["curl", "-s", "--max-time", "25", "-o", tmp, s3_url],
+            capture_output=True, timeout=30)
+        if r.returncode == 0 and os.path.exists(tmp) and os.path.getsize(tmp) > 100:
+            with open(tmp, "rb") as f:
+                head = f.read(4)
+            if head[:4] == b"\x89PNG":
+                os.rename(tmp, dest)
+                return f"{JSDELIVR_LOGOS}/{channel_id}.png"
+            if head[:2] == b"\xff\xd8":
+                # JPEG -> convertir a PNG para unificar extension
+                try:
+                    from PIL import Image
+                    Image.open(tmp).save(dest)
+                    os.remove(tmp)
+                    return f"{JSDELIVR_LOGOS}/{channel_id}.png"
+                except ImportError:
+                    pass
+        if os.path.exists(tmp):
+            os.remove(tmp)
+    except Exception:  # noqa: BLE001
+        pass
+    # Fallback: URL original (puede no cargar en algunos reproductores)
+    return s3_url
 
 
 def main():
@@ -82,7 +126,8 @@ def main():
         if not url:
             print(f"  - {title}: sin stream")
             continue
-        logo = c.get("landscapeImage") or c.get("image") or ""
+        s3_logo = c.get("landscapeImage") or c.get("image") or ""
+        logo = logo_local(c["id"], s3_logo)
         lines.append(
             f'#EXTINF:-1 tvg-id="{c["id"]}" tvg-logo="{logo}" '
             f'group-title="Costa Rica",{title}'
@@ -91,7 +136,7 @@ def main():
         ok += 1
     print(f"{ok} canales con stream")
 
-    out = os.path.join(os.path.dirname(os.path.abspath(__file__)), "tummtv.m3u")
+    out = os.path.join(REPO_DIR, "tummtv.m3u")
     stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     with open(out, "w", encoding="utf-8") as f:
         f.write(f"# Lista generada: {stamp}\n")
