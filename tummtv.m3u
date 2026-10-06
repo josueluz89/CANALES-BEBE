@@ -1,4 +1,4 @@
-# Lista generada: 2026-10-05 23:27 UTC
+# Lista generada: 2026-10-06 01:36 UTC
 #EXTM3U
 #EXTINF:-1 tvg-id="266f1e55-40b2-4c74-8368-3529413722d5" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/266f1e55-40b2-4c74-8368-3529413722d5.png" group-title="Costa Rica",Alco Madrid TV
 https://streaming.tumm.tv/10303/notoken/hls/alcomadridtv/playlist.m3u8
@@ -94,3 +94,101 @@ https://streaming.tumm.tv/10303/notoken/hls/canal1/playlist.m3u8
 https://streaming.tumm.tv/10303/notoken/hls/france24/playlist.m3u8
 #EXTINF:-1 tvg-id="777c5a30-436d-4d03-a2c1-8c91dca5cde1" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/777c5a30-436d-4d03-a2c1-8c91dca5cde1.png" group-title="Costa Rica",Canal 36
 https://streaming.tumm.tv/10303/notoken/hls/canal36/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://w7.pngwing.com/pngs/389/717/png-transparent-the-simpsons-bart-simpson-marge-simpson-logo-simpsons-television-heroes-text.png" group-title="24/7", Simpson 24/7
+https://stream-cdn-iad3.vaughnsoft.net/play/live_simpson_maniahd193.flv
+#EXTINF:-1 tvg-logo="https://w7.pngwing.com/pngs/771/352/png-transparent-the-simpsons-characters-illustration-homer-simpson-marge-simpson-maggie-simpson-lisa-simpson-bart-simpson-the-simpsons-text-cartoon-fictional-character.png" group-title="24/7", Simpson 24/7 2
+https://live20.bozztv.com/akamaissh101/ssh101/simptestnews/chunks.m3u8
+#EXTINF:-1 tvg-logo="https://w7.pngwing.com/pngs/789/635/png-transparent-homer-simpson-marge-simpson-bart-simpson-television-show-los-simpsons-television-text-cartoon.png" group-title="24/7", Simpson 24/7 4
+https://live20.bozztv.com/akamaissh101/ssh101/simplat/chunks.m3u8
+#EXTINF:-1 tvg-logo="https://www.pngall.com/wp-content/uploads/13/Anime-Logo-PNG-HD-Image.png" group-title="Animation", Anime2
+https://live20.bozztv.com/giatvplayout7/giatv-209624/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/dubpaq6.png" group-title="Animation", AnimaKIDS
+https://live-evg8.tv360.bitel.com.pe/bitel/animakids/playlist.m3u8?uid=3600969
+#EXTINF:-1 tvg-name="AnimeStation" tvg-id="" tvg-logo="https://i.ibb.co/mbwJS5X/logo-Anime-Station.png" group-title="Animation",AnimeStation
+https://live20.bozztv.com/akamaissh101/ssh101/livestreamingtv/playlist.m3u8
+#EXTINF:-1 group-title="Animation", AZTV
+http://animezonetv.net/hls/stream.m3u8
+#EXTINF:-1 group-title="Animation", Bob Esponja
+https://jmp2.uk/plu-6254598f5083f800076d8563.m3u8
+#EXTINF:-1 tvg-logo="https://w7.pngwing.com/pngs/602/409/png-transparent-tom-cat-jerry-mouse-tom-and-jerry-tom-and-jerry-heroes-logo-cartoon.png" group-title="Animation", Cartoon Tom & Jerry
+https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://image.roku.com/developer_channels/prod/ef15682060b756ab1bcf928ae9e98e7c4b459e005ad54489ab358f60ffc47001.png" group-title="Animation", Clasico animados
+https://live20.bozztv.com/giatvplayout7/giatv-209599/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Cartoon_Network_logo_%282004-2010%29.svg/330px-Cartoon_Network_logo_%282004-2010%29.svg.png" group-title="Animation", CN CITY
+https://envivo.cncity.live/hls/envivo.m3u8
+#EXTINF:-1 group-title="Animation", Dreiko TV
+https://cloudvideo.servers10.com:8081/8020/index.m3u8
+#EXTINF:-1 tvg-logo="https://static.elektamedia.com/ch/entch.png" group-title="Cine", Ent Channel
+https://cdn.global.elektamedia.com/live/c7eds/ENT_Channel/SA_LIVE_hls_enc/master.m3u8
+#EXTINF:-1 tvg-logo="https://static.elektamedia.com/ch/entf.png" group-title="Cine", Ent Family
+https://cdn.global.elektamedia.com/live/c7eds/ENT_Family/SA_LIVE_hls_enc/master.m3u8
+#EXTINF:-1 tvg-logo="https://img3.static-ottera.com/prod/oly/linear_channel/thumbnails/square/213x213/accion.jpg" group-title="Cine", FREE TV Accion
+https://stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=16466
+#EXTINF:-1 tvg-logo="https://img3.static-ottera.com/prod/oly/linear_channel/thumbnails/square/213x213/asia.jpg" group-title="Cine", FREE TV Asia
+https://stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=16464
+#EXTINF:-1 tvg-logo="https://img3.static-ottera.com/prod/oly/linear_channel/thumbnails/square/213x213/banda.jpg" group-title="Cine", FREE TV Banda
+https://stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=16465
+#EXTINF:-1 tvg-logo="https://img3.static-ottera.com/prod/oly/linear_channel/thumbnails/square/213x213/clasico.jpg" group-title="Cine", FREE TV Clasico
+https://stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=16468
+#EXTINF:-1 tvg-logo="https://img3.static-ottera.com/prod/oly/linear_channel/thumbnails/square/213x213/drama.jpg" group-title="Cine", FREE TV Drama
+https://stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=16198
+#EXTINF:-1 tvg-logo="https://img3.static-ottera.com/prod/oly/linear_channel/thumbnails/square/213x213/estelar.jpg" group-title="Cine", FREE TV Estelar
+https://stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=16470
+#EXTINF:-1 tvg-logo="https://img3.static-ottera.com/prod/oly/linear_channel/thumbnails/square/213x213/familia.jpg" group-title="Cine", FREE TV familia
+https://stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=16471
+#EXTINF:-1 tvg-logo="https://img3.static-ottera.com/prod/oly/linear_channel/thumbnails/square/213x213/hits.jpg" group-title="Cine", FREE TV Hits
+https://stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=16473
+#EXTINF:-1 tvg-logo="https://img3.static-ottera.com/prod/oly/linear_channel/thumbnails/square/213x213/live.jpg" group-title="Cine", FREE TV Live
+https://stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=16472
+#EXTINF:-1 tvg-logo="https://img3.static-ottera.com/prod/oly/linear_channel/thumbnails/square/213x213/sureno.jpg" group-title="Cine", FREE TV Sureño
+https://stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=16476
+#EXTINF:-1 tvg-logo="https://img3.static-ottera.com/prod/oly/linear_channel/thumbnails/square/213x213/terror.jpg" group-title="Cine", FREE TV Terror
+https://stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=16477
+#EXTINF:-1 tvg-id="Locomotion.ar@SD" tvg-logo="https://ragnarokargumental3.wordpress.com/wp-content/uploads/2016/10/locomotion_by_minino.png" group-title="Animation",Locomotion
+https://live20.bozztv.com/akamaissh101/ssh101/myevent2025/chunks.m3u8
+#EXTINF:-1 tvg-id="MagicKids.ar@SD" tvg-logo="https://i.imgur.com/CMImqQY.png" group-title="Animation",Magic Kids
+https://kiiroilabs.ddns.net/magickids/stream/stream.m3u8
+#EXTINF:-1 tvg-logo="https://neotv.energeek.cl/assets/img/channels/max-anime-3-c.png" group-title="Animation", Max Anime
+https://cdnlive.klicgo.net/maxanime/live/playlist_dvr.m3u8
+#EXTINF:-1 group-title="Animation", Pluto TV Anime
+https://jmp2.uk/plu-5dcde17bf6591d0009839e02.m3u8
+#EXTINF:-1 tvg-id="RetroMagico.ar@SD" group-title="Animation", Retro Mágico
+https://live20.bozztv.com/giatv/giatv-retromagicochnl/retromagicochnl/playlist.m3u8
+#EXTINF:-1 group-title="Cine", Popcorn central
+https://stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=16571
+#EXTINF:-1 tvg-logo="https://static.wixstatic.com/media/59c031_b10c329535aa411ca0d56dbdf8cb7bd1~mv2.png/v1/fit/w_2500,h_1330,al_c/59c031_b10c329535aa411ca0d56dbdf8cb7bd1~mv2.png" group-title="Religioso", Aliento Vision
+https://627bb251f23c7.streamlock.net:444/AlientoSD/AlientoSD/playlist.m3u8
+#EXTINF:-1 tvg-id="CanalOrbe21.ar@SD" tvg-logo="https://i.imgur.com/USD6Wn8.png" group-title="Religioso",Canal Orbe 21
+https://stream.arcast.net:4443/canal21/ngrp:canal21_all/playlist.m3u8
+#EXTINF:-1 tvg-id="RadioSublimeGraciaTV.ar@SD" tvg-logo="https://i.ibb.co/P9jgTz4/c49b986afb751882bcbee57f9c9b20d7-350x210.png" group-title="Religioso",Radio Sublime Gracia TV
+https://5f700d5b2c46f.streamlock.net/sublime/sublime/playlist.m3u8
+#EXTINF:-1 tvg-id="TVManaArgentina.ar@SD" tvg-logo="https://i.imgur.com/jars0mP.png" group-title="Religioso",TV Maná Argentina
+https://w2.manasat.com/tvmana-ar/smil:tvmana-ar.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="UnifeTV.ar@SD" tvg-logo="https://i.imgur.com/TLM592m.png" group-title="Religioso",Unife TV
+https://5dcabf026b188.streamlock.net/StreamUnife/livestream/playlist.m3u8
+#EXTINF:-1 tvg-id="UnifeTV.ar@SD" tvg-logo="https://i.imgur.com/TLM592m.png" group-title="Religioso",Unife TV Arg
+https://cdn.mycloudstream.io/hls/live/broadcast/pgv5kerk/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.appcreator24.com/srv/imgs/gen/3071707_ico.png" group-title="Religioso", Vida al Maximo tv
+https://live20.bozztv.com/akamaissh101/ssh101/vidaalmaximo11/playlist.m3u8
+#EXTINF:-1 group-title="Radio", Radio Disney
+https://27373.live.streamtheworld.com:443/DISNEY_ARG_BA_ADP
+#EXTINF:-1 group-title="Radio", Rock & Pop
+https://24223.live.streamtheworld.com:443/ROCKANDPOP_SC
+#EXTINF:-1 channel-id="6254598f5083f800076d8563" tvg-id="6254598f5083f800076d8563" tvg-chno="1460" tvg-name="Bob Esponja Pantalones Cuadrados" tvg-logo="https://images.pluto.tv/channels/6254598f5083f800076d8563/colorLogoPNG_1789430846797.png" group-title="Kids",Bob Esponja Pantalones Cuadrados
+https://jmp2.uk/plu-6254598f5083f800076d8563.m3u8
+#EXTINF:-1 channel-id="656f37f257fe4a000884dfee" tvg-id="656f37f257fe4a000884dfee" tvg-chno="1261" tvg-name="Boruto: Naruto Next Generations" tvg-logo="https://images.pluto.tv/channels/656f37f257fe4a000884dfee/colorLogoPNG.png" group-title="Anime & Gaming",Boruto: Naruto Next Generations
+https://jmp2.uk/plu-656f37f257fe4a000884dfee.m3u8
+#EXTINF:-1 channel-id="62d0895ebe7a970008785244" tvg-id="62d0895ebe7a970008785244" tvg-chno="934" tvg-name="Daria" tvg-logo="https://images.pluto.tv/channels/62d0895ebe7a970008785244/colorLogoPNG.png" group-title="Comedia",Daria
+https://jmp2.uk/plu-62d0895ebe7a970008785244.m3u8
+#EXTINF:-1 channel-id="5fcea93ffcf94500071c4b2f" tvg-id="5fcea93ffcf94500071c4b2f" tvg-chno="1365" tvg-name="Kenan y Kel" tvg-logo="https://images.pluto.tv/channels/5fcea93ffcf94500071c4b2f/colorLogoPNG.png" group-title="Teen",Kenan y Kel
+https://jmp2.uk/plu-5fcea93ffcf94500071c4b2f.m3u8
+#EXTINF:-1 channel-id="5ee92e72fb286e0007285fec" tvg-id="5ee92e72fb286e0007285fec" tvg-chno="1259" tvg-name="Naruto" tvg-logo="https://images.pluto.tv/channels/5ee92e72fb286e0007285fec/colorLogoPNG.png" group-title="Anime & Gaming",Naruto
+https://jmp2.uk/plu-5ee92e72fb286e0007285fec.m3u8
+#EXTINF:-1 channel-id="5fab09a8749b1a00077d35d2" tvg-id="5fab09a8749b1a00077d35d2" tvg-chno="1352" tvg-name="Nickelodeon Teen" tvg-logo="https://images.pluto.tv/channels/5fab09a8749b1a00077d35d2/colorLogoPNG_1749640834707.png" group-title="Teen",Nickelodeon Teen
+https://jmp2.uk/plu-5fab09a8749b1a00077d35d2.m3u8
+#EXTINF:-1 channel-id="620ff0a01f9e8700076c6f9d" tvg-id="620ff0a01f9e8700076c6f9d" tvg-chno="1360" tvg-name="Nickelodeon iCarly" tvg-logo="https://images.pluto.tv/channels/620ff0a01f9e8700076c6f9d/colorLogoPNG.png" group-title="Teen",Nickelodeon iCarly
+https://jmp2.uk/plu-620ff0a01f9e8700076c6f9d.m3u8
+#EXTINF:-1 channel-id="5ff4b9ccf938f8000779eb99" tvg-id="5ff4b9ccf938f8000779eb99" tvg-chno="1284" tvg-name="One Piece" tvg-logo="https://images.pluto.tv/channels/5ff4b9ccf938f8000779eb99/colorLogoPNG-1663941540755.png" group-title="Anime & Gaming",One Piece
+https://jmp2.uk/plu-5ff4b9ccf938f8000779eb99.m3u8
+#EXTINF:-1 channel-id="5dcde17bf6591d0009839e02" tvg-id="5dcde17bf6591d0009839e02" tvg-chno="1251" tvg-name="Pluto TV Anime" tvg-logo="https://images.pluto.tv/channels/5dcde17bf6591d0009839e02/colorLogoPNG_1785346475723.png" group-title="Anime & Gaming",Pluto TV Anime
+https://jmp2.uk/plu-5dcde17bf6591d0009839e02.m3u8
