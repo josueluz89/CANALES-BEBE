@@ -48,6 +48,13 @@ EXTERNAL_CHANNELS = [
         # Logo de respaldo si la lista origen no trae uno.
         "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/world-latin-america/fox-channel-lam.png",
     },
+    {
+        "name": "FUTV",
+        "group": "Costa Rica",
+        "source": "https://raw.githubusercontent.com/CINECITY2023/cinecity/cinecity.net/principal.m3u",
+        "match": ["Futv"],
+        "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/deportes/CHfuttv.png",
+    },
 ]
 
 
