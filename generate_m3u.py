@@ -51,9 +51,9 @@ EXTERNAL_CHANNELS = [
     {
         "name": "FUTV",
         "group": "Costa Rica",
-        "source": "https://raw.githubusercontent.com/CINECITY2023/cinecity/cinecity.net/principal.m3u",
-        "match": ["Futv"],
-        "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/deportes/CHfuttv.png",
+        "source": "https://iptv-org.github.io/iptv/languages/spa.m3u",
+        "match": ["FUTV"],
+        "logo": "https://i.imgur.com/f8BkLql.png",
     },
 ]
 
