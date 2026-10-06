@@ -1,4 +1,4 @@
-# Lista generada: 2026-10-06 19:58 UTC
+# Lista generada: 2026-10-06 20:01 UTC
 #EXTM3U
 #EXTINF:-1 tvg-id="266f1e55-40b2-4c74-8368-3529413722d5" tvg-logo="https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos/266f1e55-40b2-4c74-8368-3529413722d5.png" group-title="Costa Rica",Alco Madrid TV
 https://streaming.tumm.tv/10303/notoken/hls/alcomadridtv/playlist.m3u8
@@ -194,3 +194,5 @@ https://jmp2.uk/plu-5ff4b9ccf938f8000779eb99.m3u8
 https://jmp2.uk/plu-5dcde17bf6591d0009839e02.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/world-latin-america/fox-channel-lam.png" group-title="Costa Rica",FOX (Costa Rica)
 http://201.207.54.159:8000/play/a0as/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/deportes/CHfuttv.png" group-title="Costa Rica",FUTV
+http://45.167.1.136:8000/play/a069
