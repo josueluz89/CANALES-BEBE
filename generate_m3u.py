@@ -11,6 +11,7 @@ repo y el M3U apunta a jsDelivr (Content-Type image/png correcto).
 """
 import json
 import os
+import re
 import subprocess
 import sys
 import urllib.parse
@@ -44,6 +45,8 @@ EXTERNAL_CHANNELS = [
         "group": "Costa Rica",
         "source": "https://raw.githubusercontent.com/JeanMercado2009/CanalesTV/refs/heads/main/canales.m3u",
         "match": ["FOX (Costa Rica)", "FOX+ (Costa Rica)"],
+        # Logo de respaldo si la lista origen no trae uno.
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/world-latin-america/fox-channel-lam.png",
     },
 ]
 
@@ -80,22 +83,26 @@ def sync_external_channels():
             name = line.rsplit(",", 1)[-1].strip()
             if not any(m.lower() in name.lower() for m in ch["match"]):
                 continue
+            logo = ""
+            m = re.search(r'tvg-logo="([^"]*)"', line)
+            if m:
+                logo = m.group(1)
             for j in range(i + 1, min(i + 6, len(src))):
                 u = src[j].strip()
                 if u and not u.startswith("#"):
-                    candidates.append((name, u))
+                    candidates.append((name, u, logo))
                     break
         picked = None
-        for name, url in candidates:
+        for name, url, logo in candidates:
             code = http_code(url)
             print(f"    [{code}] {name} -> {url[:70]}")
             if code == "200":
-                picked = (name, url)
+                picked = (name, url, logo or ch.get("logo", ""))
                 break
         if picked:
-            name, url = picked
+            name, url, logo = picked
             out_lines.append(
-                f'#EXTINF:-1 tvg-logo="" group-title="{ch["group"]}",{ch["name"]}')
+                f'#EXTINF:-1 tvg-logo="{logo}" group-title="{ch["group"]}",{ch["name"]}')
             out_lines.append(url)
             print(f"  + {ch['name']}: OK")
         else:
