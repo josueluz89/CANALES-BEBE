@@ -24,3 +24,6 @@ jobs:
           git add tummtv.m3u
           git diff --cached --quiet || git commit -m "actualizar lista $(date -u +%F_%H:%M)"
           git push
+      - name: Purgar caché jsDelivr
+        run: |
+          curl -s "https://purge.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/tummtv.m3u" || echo "purge falló"
