@@ -34,6 +34,74 @@ REPO_DIR = os.path.dirname(os.path.abspath(__file__))
 LOGOS_DIR = os.path.join(REPO_DIR, "logos")
 JSDELIVR_LOGOS = "https://cdn.jsdelivr.net/gh/josueluz89/CANALES-BEBE@main/logos"
 
+# Canales que se sincronizan desde listas de terceros (raw público).
+# En cada regeneración se baja la lista origen, se busca el canal por nombre,
+# se prueban sus URLs y se usa la primera que responda. Si el stream actual
+# se cae, la siguiente corrida lo reemplaza solo con el que sirva.
+EXTERNAL_CHANNELS = [
+    {
+        "name": "FOX (Costa Rica)",
+        "group": "Costa Rica",
+        "source": "https://raw.githubusercontent.com/JeanMercado2009/CanalesTV/refs/heads/main/canales.m3u",
+        "match": ["FOX (Costa Rica)", "FOX+ (Costa Rica)"],
+    },
+]
+
+
+def http_code(url, timeout=12):
+    try:
+        r = subprocess.run(
+            ["curl", "-s", "-o", "/dev/null", "-w", "%{http_code}",
+             "--max-time", str(timeout), url],
+            capture_output=True, text=True, timeout=timeout + 5)
+        return r.stdout.strip()
+    except Exception:  # noqa: BLE001
+        return "000"
+
+
+def sync_external_channels():
+    """Baja listas de terceros y devuelve líneas M3U con el mejor stream
+    disponible para cada canal configurado en EXTERNAL_CHANNELS."""
+    out_lines = []
+    for ch in EXTERNAL_CHANNELS:
+        print(f"  sync {ch['name']}...")
+        try:
+            r = subprocess.run(
+                ["curl", "-s", "--max-time", "30", ch["source"]],
+                capture_output=True, text=True, timeout=40)
+            src = r.stdout.splitlines()
+        except Exception as e:  # noqa: BLE001
+            print(f"  ! no se pudo bajar la lista: {e}")
+            continue
+        candidates = []
+        for i, line in enumerate(src):
+            if not line.startswith("#EXTINF"):
+                continue
+            name = line.rsplit(",", 1)[-1].strip()
+            if not any(m.lower() in name.lower() for m in ch["match"]):
+                continue
+            for j in range(i + 1, min(i + 6, len(src))):
+                u = src[j].strip()
+                if u and not u.startswith("#"):
+                    candidates.append((name, u))
+                    break
+        picked = None
+        for name, url in candidates:
+            code = http_code(url)
+            print(f"    [{code}] {name} -> {url[:70]}")
+            if code == "200":
+                picked = (name, url)
+                break
+        if picked:
+            name, url = picked
+            out_lines.append(
+                f'#EXTINF:-1 tvg-logo="" group-title="{ch["group"]}",{ch["name"]}')
+            out_lines.append(url)
+            print(f"  + {ch['name']}: OK")
+        else:
+            print(f"  - {ch['name']}: ningún candidato responde, se omite")
+    return out_lines
+
 
 def api(method, path, params=None, data=None, token=None, retries=3):
     # Se usa curl: el servidor corta las conexiones de urllib en /player/channels
@@ -153,6 +221,10 @@ def main():
                 if s.startswith("#EXTINF"):
                     n += 1
         print(f"  + {extra}: {n} canales")
+
+    # Sincronizar canales externos desde listas de terceros: si el stream
+    # actual cayó, se reemplaza solo con el que sirva de la lista origen.
+    lines.extend(sync_external_channels())
 
     out = os.path.join(REPO_DIR, "tummtv.m3u")
     stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
