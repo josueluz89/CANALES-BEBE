@@ -55,13 +55,6 @@ EXTERNAL_CHANNELS = [
         "match": ["FUTV"],
         "logo": "https://i.imgur.com/f8BkLql.png",
     },
-    {
-        "name": "FUTV 2",
-        "group": "Costa Rica",
-        "source": "https://raw.githubusercontent.com/CINECITY2023/cinecity/cinecity.net/principal.m3u",
-        "match": ["Futv"],
-        "logo": "https://i.imgur.com/f8BkLql.png",
-    },
 ]
 
 
