@@ -136,6 +136,24 @@ def main():
         ok += 1
     print(f"{ok} canales con stream")
 
+    # Fusionar listas estáticas adicionales: van por el mismo raw que la app
+    # ya trae configurado (tummtv.m3u), así llegan solas sin agregar plugins.
+    for extra in ("listas/vampitv-verificado.m3u", "listas/24-7-maraton.m3u"):
+        p = os.path.join(REPO_DIR, extra)
+        if not os.path.exists(p):
+            print(f"  ! no existe {extra}, se omite")
+            continue
+        n = 0
+        with open(p, encoding="utf-8") as f:
+            for line in f:
+                s = line.strip()
+                if not s or s.startswith("#EXTM3U"):
+                    continue
+                lines.append(s)
+                if s.startswith("#EXTINF"):
+                    n += 1
+        print(f"  + {extra}: {n} canales")
+
     out = os.path.join(REPO_DIR, "tummtv.m3u")
     stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     with open(out, "w", encoding="utf-8") as f:
